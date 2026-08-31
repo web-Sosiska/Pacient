@@ -185,6 +185,7 @@
             guna2Button2.Size = new Size(180, 45);
             guna2Button2.TabIndex = 15;
             guna2Button2.Text = "Сохранить документ ";
+            guna2Button2.Click += guna2Button2_Click;
             // 
             // guna2CustomGradientPanel5
             // 
@@ -230,6 +231,7 @@
             guna2TextBox14.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2TextBox14.Size = new Size(503, 25);
             guna2TextBox14.TabIndex = 11;
+            guna2TextBox14.TextChanged += guna2TextBox14_TextChanged;
             // 
             // guna2HtmlLabel17
             // 
@@ -260,6 +262,7 @@
             guna2TextBox6.ShadowDecoration.CustomizableEdges = customizableEdges8;
             guna2TextBox6.Size = new Size(503, 25);
             guna2TextBox6.TabIndex = 9;
+            guna2TextBox6.TextChanged += guna2TextBox6_TextChanged;
             // 
             // guna2TextBox11
             // 
@@ -279,6 +282,7 @@
             guna2TextBox11.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2TextBox11.Size = new Size(503, 25);
             guna2TextBox11.TabIndex = 8;
+            guna2TextBox11.TextChanged += guna2TextBox11_TextChanged;
             // 
             // guna2TextBox12
             // 
@@ -298,6 +302,7 @@
             guna2TextBox12.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2TextBox12.Size = new Size(503, 25);
             guna2TextBox12.TabIndex = 7;
+            guna2TextBox12.TextChanged += guna2TextBox12_TextChanged;
             // 
             // guna2TextBox13
             // 
@@ -317,6 +322,7 @@
             guna2TextBox13.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2TextBox13.Size = new Size(503, 25);
             guna2TextBox13.TabIndex = 6;
+            guna2TextBox13.TextChanged += guna2TextBox13_TextChanged;
             // 
             // guna2HtmlLabel8
             // 
@@ -415,6 +421,7 @@
             guna2TextBox7.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2TextBox7.Size = new Size(503, 25);
             guna2TextBox7.TabIndex = 9;
+            guna2TextBox7.TextChanged += guna2TextBox7_TextChanged;
             // 
             // guna2TextBox8
             // 
@@ -434,6 +441,7 @@
             guna2TextBox8.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2TextBox8.Size = new Size(447, 25);
             guna2TextBox8.TabIndex = 8;
+            guna2TextBox8.TextChanged += guna2TextBox8_TextChanged;
             // 
             // guna2TextBox9
             // 
@@ -453,6 +461,7 @@
             guna2TextBox9.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2TextBox9.Size = new Size(503, 25);
             guna2TextBox9.TabIndex = 7;
+            guna2TextBox9.TextChanged += guna2TextBox9_TextChanged;
             // 
             // guna2TextBox10
             // 
@@ -472,6 +481,7 @@
             guna2TextBox10.ShadowDecoration.CustomizableEdges = customizableEdges24;
             guna2TextBox10.Size = new Size(503, 25);
             guna2TextBox10.TabIndex = 6;
+            guna2TextBox10.TextChanged += guna2TextBox10_TextChanged;
             // 
             // guna2HtmlLabel7
             // 
@@ -574,6 +584,7 @@
             guna2Button1.Size = new Size(180, 45);
             guna2Button1.TabIndex = 14;
             guna2Button1.Text = "Добавить фотографию";
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // pictureBox1
             // 
@@ -621,6 +632,7 @@
             guna2TextBox5.ShadowDecoration.CustomizableEdges = customizableEdges30;
             guna2TextBox5.Size = new Size(503, 25);
             guna2TextBox5.TabIndex = 10;
+            guna2TextBox5.TextChanged += guna2TextBox5_TextChanged;
             // 
             // guna2TextBox4
             // 
@@ -640,6 +652,7 @@
             guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges32;
             guna2TextBox4.Size = new Size(503, 25);
             guna2TextBox4.TabIndex = 9;
+            guna2TextBox4.TextChanged += guna2TextBox4_TextChanged;
             // 
             // guna2TextBox3
             // 
@@ -659,6 +672,7 @@
             guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges34;
             guna2TextBox3.Size = new Size(503, 25);
             guna2TextBox3.TabIndex = 8;
+            guna2TextBox3.TextChanged += guna2TextBox3_TextChanged;
             // 
             // guna2TextBox2
             // 
@@ -678,6 +692,7 @@
             guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges36;
             guna2TextBox2.Size = new Size(503, 25);
             guna2TextBox2.TabIndex = 7;
+            guna2TextBox2.TextChanged += guna2TextBox2_TextChanged;
             // 
             // guna2TextBox1
             // 
@@ -697,6 +712,7 @@
             guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges38;
             guna2TextBox1.Size = new Size(503, 25);
             guna2TextBox1.TabIndex = 6;
+            guna2TextBox1.TextChanged += guna2TextBox1_TextChanged;
             // 
             // guna2HtmlLabel6
             // 
