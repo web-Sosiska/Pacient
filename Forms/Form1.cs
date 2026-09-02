@@ -32,26 +32,26 @@ namespace Pacient
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            
 
-            //// Проверка заполненности полей
+
+            ////// Проверка заполненности полей
             //if (string.IsNullOrWhiteSpace(guna2TextBox1_name.Text))
             //{
-                
+
             //    MessageBox.Show("Поле 'Имя' не заполнено!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             //    return;
             //}
 
             //if (string.IsNullOrWhiteSpace(guna2TextBox2_Email.Text))
             //{
-                
-            //    MessageBox.Show("Поле 'Email' не заполнено!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            //   MessageBox.Show("Поле 'Email' не заполнено!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             //    return;
             //}
 
             //if (string.IsNullOrWhiteSpace(guna2TextBox3_password.Text))
             //{
-                
+
             //    MessageBox.Show("Поле 'Пароль' не заполнено!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             //    return;
             //}
@@ -87,9 +87,9 @@ namespace Pacient
             //    guna2TextBox3_password.FillColor = Color.White;
             //    guna2TextBox3_password.BorderColor = Color.Gray;
 
-                // Открываем главную форму
-                Osnova patientCard = new Osnova();
-                patientCard.Show();
+            //// Открываем главную форму
+            Osnova patientCard = new Osnova();
+            patientCard.Show();
             //    this.Hide(); // Скрываем форму регистрации
             //}
             //catch (Exception ex)
@@ -101,11 +101,11 @@ namespace Pacient
             //        MessageBoxIcon.Error
             //    );
             //}
-           
+
 
 
         }
-        
+
 
         private void guna2TextBox1_name_TextChanged(object sender, EventArgs e)
         {
